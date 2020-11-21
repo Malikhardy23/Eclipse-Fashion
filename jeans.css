@@ -1,0 +1,2419 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+#grandContainer{
+    display: flex;
+    flex-direction: column;
+    width: 115rem;
+    height: 100%;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+
+#mobileMenu{
+    display: none;
+}
+
+#menuBtn{
+    display: none;
+}
+
+.banner{
+    width: 115rem;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 20px 15px;
+    letter-spacing: 1px;
+    font-family: 'Open Sans', sans-serif;
+    cursor: pointer;
+}
+
+.topContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 225px;
+    justify-content: center;
+    align-items: baseline;
+    margin-top: 25px;
+    text-align: center;
+}
+
+.mainTitle{
+    cursor: pointer;
+    font-family: 'Open sans', sans-serif;
+    letter-spacing: 1px;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.mainTitle h1 a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+.userIcons1{
+    cursor: pointer;
+    color: #000;
+}
+
+.userIcons1 ion-icon{
+    font-size: 20px;
+    font-size: 25px;
+}
+
+#searchBar{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color: transparent;
+    font-weight: 900;
+    letter-spacing: 1px;
+    color: #000;
+    border-bottom-color: #000;
+}
+
+.fa, .fas {
+    font-family: "Font Awesome 5 Pro";
+    font-weight: 900;
+    padding: 10px;
+    color: #000;
+    font-size: 25px;
+}
+
+.userIcons2 ion-icon{
+    color: #000;
+    font-size: 25px;
+    padding: 5px;
+}
+
+.userIcons2{
+    padding: 10px 10px;
+    padding-right: 50px;
+    display: flex;
+    cursor: pointer;
+    color: #000;
+    font-size: 25px;
+    
+}
+
+.userIcons2 .fas, .far{
+    transition: all .4s ease-in-out;
+    font-size: 25px;
+    padding: 5px;
+}
+
+#navbar{
+    padding: 10px;
+    cursor: pointer;
+    text-align: center;
+   
+}
+
+#navbar a{
+    padding: 10px;
+    display: inline;
+    text-align: center;
+    text-decoration: none;
+    color: #000;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    transition: all .4s ease-in-out;
+}
+
+#navbar a:hover{
+    text-decoration: underline;
+}
+
+/* JEANS MIDSECTION */
+
+.jeansMidSection{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: baseline;
+    align-items: baseline;
+    margin-top: 5%;
+    margin: 100px;
+}
+
+#jeansProducts{
+    position: relative;
+    left: -33%;
+}
+
+#jeansSectionfilter ul li{
+    list-style: none;
+    padding: 10px 10px;
+    cursor: pointer;
+}
+
+.categoriesTitle{
+    text-align: center;
+    font-size: 20px;
+    cursor: pointer;
+    width: 5%;
+}
+
+.jeansTitle{
+    text-align: center;
+    margin: 50px;
+    text-transform: uppercase;
+    font-family: 'Open sans', sans-serif;
+    letter-spacing: 2px;
+}
+
+#jeansProducts .jeansProduct1image{
+    background: url('https://www.pacsun.com/dw/image/v2/AAJE_PRD/on/demandware.static/-/Sites-pacsun_storefront_catalog/default/dw9e713139/product_images/0132242100157NEW_00_294.jpg?sw=690&sh=1070&sm=fit');
+    background-position: center center;
+    background-size: cover;
+    width: 300px;
+    height: 400px;
+}
+
+#jeansProducts .jeansProduct1image:hover{
+    background: url('https://www.pacsun.com/dw/image/v2/AAJE_PRD/on/demandware.static/-/Sites-pacsun_storefront_catalog/default/dwd29dadd8/product_images/0132242100157NEW_01_294.jpg?sw=690&sh=1070&sm=fit');
+    background-position: center center;
+    background-size: cover;
+    width: 300px;
+    height: 400px;
+}
+
+#jeansProducts .jeansProduct2image{
+    background: url('https://www.pacsun.com/dw/image/v2/AAJE_PRD/on/demandware.static/-/Sites-pacsun_storefront_catalog/default/dwbbf0d2c7/product_images/0860602180034NEW_01_349.jpg?sw=690&sh=1070&sm=fit');
+    background-position: center center;
+    background-size: cover;
+    width: 300px;
+    height: 400px;
+}
+
+#jeansProducts .jeansProduct2image:hover{
+    background: url('https://www.pacsun.com/dw/image/v2/AAJE_PRD/on/demandware.static/-/Sites-pacsun_storefront_catalog/default/dw9228240a/product_images/0860602180034NEW_02_349.jpg?sw=690&sh=1070&sm=fit');
+    background-position: center center;
+    background-size: cover;
+    width: 300px;
+    height: 400px;
+}
+
+#jeansProducts .jeansProduct3image{
+    background: url('https://www.pacsun.com/dw/image/v2/AAJE_PRD/on/demandware.static/-/Sites-pacsun_storefront_catalog/default/dw2091e3aa/product_images/0132454210101NEW_00_326.jpg?sw=690&sh=1070&sm=fit');
+    background-position: center center;
+    background-size: cover;
+    width: 300px;
+    height: 400px;
+}
+
+#jeansProducts .jeansProduct3image:hover{
+    background: url('https://www.pacsun.com/dw/image/v2/AAJE_PRD/on/demandware.static/-/Sites-pacsun_storefront_catalog/default/dwcff35802/product_images/0132454210101NEW_03_326.jpg?sw=690&sh=1070&sm=fit');
+    background-position: center center;
+    background-size: cover;
+    width: 300px;
+    height: 400px;
+}
+
+#jeansProducts .jeansProduct4image{
+    background: url('https://www.pacsun.com/dw/image/v2/AAJE_PRD/on/demandware.static/-/Sites-pacsun_storefront_catalog/default/dw95d5c8b0/product_images/0860436750084NEW_00_025.jpg?sw=690&sh=1070&sm=fit');
+    background-position: center center;
+    background-size: cover;
+    width: 300px;
+    height: 400px;
+}
+
+#jeansProducts .jeansProduct4image:hover{
+    background: url('https://www.pacsun.com/dw/image/v2/AAJE_PRD/on/demandware.static/-/Sites-pacsun_storefront_catalog/default/dw684df5f6/product_images/0860436750084NEW_01_025.jpg?sw=690&sh=1070&sm=fit');
+    background-position: center center;
+    background-size: cover;
+    width: 300px;
+    height: 400px;
+}
+
+#jeansProducts .jeansProduct5image{
+    background: url('https://www.pacsun.com/dw/image/v2/AAJE_PRD/on/demandware.static/-/Sites-pacsun_storefront_catalog/default/dw1e0fda0c/product_images/0860436750049NEW_01_349.jpg?sw=690&sh=1070&sm=fit');
+    background-position: center center;
+    background-size: cover;
+    width: 300px;
+    height: 400px;
+}
+
+#jeansProducts .jeansProduct5image:hover{
+    background: url('https://www.pacsun.com/dw/image/v2/AAJE_PRD/on/demandware.static/-/Sites-pacsun_storefront_catalog/default/dw2432664a/product_images/0860436750049NEW_00_349.jpg?sw=690&sh=1070&sm=fit');
+    background-position: center center;
+    background-size: cover;
+    width: 300px;
+    height: 400px;
+}
+
+#jeansProducts .jeansProduct6image{
+    background: url('https://www.pacsun.com/dw/image/v2/AAJE_PRD/on/demandware.static/-/Sites-pacsun_storefront_catalog/default/dwa4c23394/product_images/0860445380291NEW_00_349.jpg?sw=690&sh=1070&sm=fit');
+    background-position: center center;
+    background-size: cover;
+    width: 300px;
+    height: 400px;
+}
+
+#jeansProducts .jeansProduct6image:hover{
+    background: url('https://www.pacsun.com/dw/image/v2/AAJE_PRD/on/demandware.static/-/Sites-pacsun_storefront_catalog/default/dw9907a84d/product_images/0860445380291NEW_04_349.jpg?sw=690&sh=1070&sm=fit');
+    background-position: center center;
+    background-size: cover;
+    width: 300px;
+    height: 400px;
+}
+
+
+
+#jeansSectionfilter{
+   margin-left: 100px;
+   font-family: 'Open sans', sans-serif;
+   position: relative;
+}
+
+
+#jeansProductSection{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100%;
+    text-align: center;
+}
+
+#jeansProductSection .product{
+    margin: 20px;
+    cursor: pointer;
+    font-family: 'Open sans', sans-serif;
+}
+
+/* footer */ 
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'DM Sans', sans-serif;
+  }
+  
+  #mainContainer{
+    padding: 20px 15px;
+    width: 115rem;
+    height: 35rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    text-align: center;
+    justify-content: center;
+    align-items: baseline;
+    align-content: center;
+    background-color: rgba(121,118,118,.1);
+  }
+  
+  #mainContainer .FindStore-Email{
+    display: grid;
+    
+  }
+  
+  #mainContainer h3{
+    margin: 25px;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    cursor: pointer;
+  }
+  
+  #mainContainer a{
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    text-decoration: none;
+    color: gray;
+    letter-spacing: 1px;
+    justify-content: center;
+    transition: all .4s ease-in-out;
+  }
+  
+  #mainContainer .storeLocator input{
+     padding: 10px;
+    font-size: 15px;
+  }
+  
+  #mainContainer .storeLocator button{
+     padding: 10px;
+    font-size: 15px;
+    transition: all .4s ease-in-out;
+  }
+  
+  #mainContainer .storeLocator button:hover{
+    color: white;
+    background-color: black;
+    
+  }
+  
+  #mainContainer .email p{
+    margin: 10px;
+    font-size: 15px;
+    color: gray;
+    text-align: left;
+    width: 100%;
+  }
+  
+  #mainContainer .email input{
+    padding: 10px;
+    font-size: 15px;
+  }
+  
+  #mainContainer .email button{
+    padding: 10px;
+    font-size: 15px;
+    transition: all .4s ease-in-out;
+  }
+  
+  #mainContainer .email button:hover{
+    color: white;
+    background-color: black;
+    
+  }
+  
+  #mainContainer a:hover{
+    color: black;
+  }
+  
+  #mainContainer .appDownload .apps{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 0;
+    cursor: pointer;
+  }
+  
+  #mainContainer .appDownload .apps .image1{
+      margin: 0;
+    padding: 0;
+    height: 100px;
+    width: 200px;
+    background: url('https://www.pacsun.com/on/demandware.static/Sites-pacsun-Site/-/default/dwc764346f/images/app-store.svg');
+    background-position: cover;
+    background-repeat: no-repeat;
+  }
+  
+  #mainContainer .appDownload .apps .image2{
+      margin: 0;
+    padding: 0;
+      height: 100px;
+    width: 200px;
+    background: url('https://www.pacsun.com/on/demandware.static/Sites-pacsun-Site/-/default/dw3beeea59/images/google-play.svg');
+    background-position: cover;
+    background-repeat: no-repeat;
+  }
+
+.socialMediaIcons{
+    display: flex;
+}
+/* ----------- iPhone 5, 5S, 5C and 5SE ----------- */
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+      
+    #grandContainer{
+        width: 105rem;
+    }
+
+
+    .container{
+        width: 100rem;
+    }
+
+    #navbar{
+        display: none;
+    }
+
+    #menuBtn{
+        display: flex;
+        margin-left: 10%;
+        padding: 50px;
+        flex-direction: column;
+    }
+
+    #closeBtn{
+        background-color: #000;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .fa-times{
+        color: #fff;
+        padding: 50px 150px;
+        font-size: 100px;
+    }
+
+     #mobileMenu.active{
+        transform: translateX(-105rem);
+        position: absolute;
+    } 
+
+    #mobileMenu{
+        margin-left: 0%;
+        padding-top: 5rem;
+        background-color:#000;
+        height: 150rem;
+        width: 105rem;
+        color: #fff;
+        position: absolute;
+        display: grid;
+        grid-template-columns: 1fr;
+        transition: all .3s ease-in-out;
+        position: absolute;
+    }
+
+    #mobileMenu .fa-search{
+        color: white;
+    }
+
+
+    #jeansSectionfilter{
+        padding: 0;
+        margin: 0;
+        text-align: center;
+        width: 100%;
+    }
+
+    .mobile-userInfo{
+        color: #fff;
+        text-align: center;
+    }
+
+    #userSearch{
+        color: black;
+    }
+
+    .fa-shopping-bag{
+        color: #fff;
+    }
+
+    .fa-search{
+        color: #fff;
+    }
+
+    .mobile-userInfo #searchBar{
+        border-bottom-color: #fff;
+        font-size: 25px;
+        color: #fff;
+    }
+
+    .searchBarContainer{
+        display: inline-flex;
+    }
+
+    #mobileMenu a{
+        color: #fff;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        font-size: 75px;
+        text-decoration: none;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        font-family: 'Open sans', sans-serif;
+        text-align: center;
+    }
+
+    .jeansMidSection{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 200px
+    }
+
+    #jeansProducts {
+        position: relative;
+        left: 0;
+    }
+
+    #jeansProductSection{
+        position: relative;
+        left: 0%;
+    }
+
+    #menuBtn .fa-bars{
+        font-size: 50px;
+    }
+
+    .userIcons1{
+        display: none;
+    }
+
+    #topSection .userIcons2{
+        display: none;
+    }
+
+    #topSection #navbar a{
+        display: none;
+    }
+
+    .logoTitle{
+        text-align: center;
+        width: 100%;
+        margin-top: 30%;
+        font-size: 8pc;
+    }
+    
+
+    .aboutContainer {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-top: 10%;
+        margin-left: -5%;
+    }
+
+    .mainContainer{
+        width: 90rem;
+        
+    }
+
+    
+    .midContainer{
+        width: 100rem;
+    }
+
+    .brandsContainer{
+        width: 90rem;
+    }
+
+    .trendingBrands{
+        width: 90rem;
+    }
+
+    .socialMediaContainer{
+        width: 90rem;
+        height: 100px;
+    }
+
+    #mainContainer{
+        padding: 20px 15px;
+        width: 100%;
+        height: 35rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        text-align: center;
+        justify-content: center;
+        align-items: baseline;
+        align-content: center;
+        background-color: rgba(121,118,118,.1);
+      }
+
+
+}
+
+/*  iPhone 5, 5S, 5C and 5SE Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+
+
+
+    .container{
+        width: 100rem;
+    }
+
+    #navbar{
+        display: none;
+    }
+
+    #menuBtn{
+        display: flex;
+        margin-left: 10%;
+        padding: 50px;
+        flex-direction: column;
+    }
+
+    #closeBtn{
+        background-color: #000;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .fa-times{
+        color: #fff;
+        padding: 50px 150px;
+        font-size: 100px;
+    }
+
+     #mobileMenu.active{
+        transform: translateX(-105rem);
+        position: absolute;
+    } 
+
+    #mobileMenu{
+        margin-left: 0%;
+        padding-top: 5rem;
+        background-color:#000;
+        height: 150rem;
+        width: 105rem;
+        color: #fff;
+        position: absolute;
+        display: grid;
+        grid-template-columns: 1fr;
+        transition: all .3s ease-in-out;
+        position: absolute;
+    }
+
+    #mobileMenu .fa-search{
+        color: white;
+    }
+
+
+    #jeansSectionfilter{
+        padding: 0;
+        margin: 0;
+        text-align: center;
+        width: 100%;
+    }
+
+    .mobile-userInfo{
+        color: #fff;
+    }
+
+    #userSearch{
+        color: black;
+    }
+
+    .fa-shopping-bag{
+        color: #fff;
+    }
+
+    .fa-search{
+        color: #fff;
+    }
+
+    .mobile-userInfo #searchBar{
+        border-bottom-color: #fff;
+        font-size: 25px;
+        color: #fff;
+    }
+
+    .searchBarContainer{
+        display: inline-flex;
+    }
+
+    #mobileMenu a{
+        color: #fff;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+        font-size: 75px;
+        text-decoration: none;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        font-family: 'Open sans', sans-serif;
+        text-align: center;
+    }
+
+    .jeansMidSection{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #jeansProducts {
+        position: relative;
+        left: 0;
+    }
+
+    #jeansProductSection{
+        position: relative;
+        left: 0%;
+    }
+
+    #menuBtn .fa-bars{
+        font-size: 50px;
+    }
+
+    .userIcons1{
+        display: none;
+    }
+
+    #topSection .userIcons2{
+        display: none;
+    }
+
+    #topSection #navbar a{
+        display: none;
+    }
+
+    .logoTitle{
+        text-align: center;
+        width: 100%;
+        margin-top: 30%;
+        font-size: 8pc;
+    }
+    
+
+    .aboutContainer {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-top: 10%;
+        margin-left: -5%;
+    }
+
+    .mainContainer{
+        width: 90rem;
+        
+    }
+
+    
+    .midContainer{
+        width: 100rem;
+    }
+
+    .brandsContainer{
+        width: 90rem;
+    }
+
+    .trendingBrands{
+        width: 90rem;
+    }
+
+    .socialMediaContainer{
+        width: 90rem;
+        height: 100px;
+    }
+
+    #mainContainer{
+        padding: 20px 15px;
+        width: 100%;
+        height: 35rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        text-align: center;
+        justify-content: center;
+        align-items: baseline;
+        align-content: center;
+        background-color: rgba(121,118,118,.1);
+      }
+
+
+  }
+
+  /* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+
+
+
+  /* iPhone 6, 6S, 7 and 8 Portrait */
+@media only screen 
+and (min-device-width: 375px) 
+and (max-device-width: 667px) 
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: portrait) { 
+
+
+
+
+    .container{
+        width: 100rem;
+    }
+
+    .banner {
+    width: 115rem;
+    }
+
+    #navbar{
+        display: none;
+    }
+
+    #menuBtn{
+        display: flex;
+        margin-left: 10%;
+        padding: 50px;
+        flex-direction: column;
+    }
+
+    #closeBtn{
+        background-color: #000;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .fa-times{
+        color: #fff;
+        padding: 50px 150px;
+        font-size: 100px;
+    }
+
+     #mobileMenu.active{
+        transform: translateX(-115rem);
+        position: absolute;
+    } 
+
+    #mobileMenu{
+        padding-top: 5rem;
+        background-color:#000;
+        height: 167rem;
+        width: 115rem;
+        color: #fff;
+        position: absolute;
+        display: grid;
+        grid-template-columns: 1fr;
+        transition: all .3s ease-in-out;
+        position: absolute;
+    }
+
+    #mobileMenu .fa-search{
+        color: white;
+    }
+
+
+    #jeansSectionfilter{
+        padding: 0;
+        margin: 0;
+        text-align: center;
+        width: 100%;
+    }
+
+    .mobile-userInfo{
+        color: #fff;
+    }
+
+    #userSearch{
+        color: black;
+    }
+
+    .fa-shopping-bag{
+        color: #fff;
+    }
+
+    .fa-search{
+        color: #fff;
+    }
+
+    .mobile-userInfo #searchBar{
+        border-bottom-color: #fff;
+        font-size: 25px;
+        color: #fff;
+    }
+
+    .searchBarContainer{
+        display: inline-flex;
+    }
+
+    #mobileMenu a{
+        color: #fff;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        font-size: 75px;
+        text-decoration: none;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        font-family: 'Open sans', sans-serif;
+        text-align: center;
+    }
+
+    .jeansMidSection {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+    }
+
+    #jeansProducts {
+        position: relative;
+        left: 0;
+    }
+
+    #jeansProductSection{
+        position: relative;
+        left: 0%;
+    }
+
+    #menuBtn .fa-bars{
+        font-size: 50px;
+    }
+
+    .userIcons1{
+        display: none;
+    }
+
+    #topSection .userIcons2{
+        display: none;
+    }
+
+    #topSection #navbar a{
+        display: none;
+    }
+
+    .logoTitle{
+        text-align: center;
+        width: 100%;
+        margin-top: 30%;
+        font-size: 8pc;
+    }
+    
+
+    .aboutContainer {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-top: 10%;
+        margin-left: -5%;
+    }
+
+    .mainContainer{
+        width: 90rem;
+        
+    }
+
+    
+    .midContainer{
+        width: 100rem;
+    }
+
+    .brandsContainer{
+        width: 90rem;
+    }
+
+    .trendingBrands{
+        width: 90rem;
+    }
+
+    .socialMediaContainer{
+        width: 90rem;
+        height: 100px;
+    }
+
+    #mainContainer{
+        padding: 20px 15px;
+        width: 115rem;
+        height: 41rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        text-align: center;
+        justify-content: center;
+        align-items: baseline;
+        align-content: center;
+        background-color: rgba(121,118,118,.1);
+      }
+
+}
+
+/* iPhone 6, 6S, 7 and 8 Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) { 
+
+    .container{
+        width: 100rem;
+    }
+
+    #navbar{
+        display: none;
+    }
+
+    #menuBtn{
+        display: flex;
+        margin-left: 10%;
+        padding: 50px;
+        flex-direction: column;
+    }
+
+    #closeBtn{
+        background-color: #000;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .fa-times{
+        color: #fff;
+        padding: 50px 150px;
+        font-size: 100px;
+    }
+
+     #mobileMenu.active{
+        transform: translateX(-105rem);
+        position: absolute;
+    } 
+
+    #mobileMenu{
+        padding-top: 5rem;
+        background-color:#000;
+        height: 167rem;
+        width: 105rem;
+        color: #fff;
+        position: absolute;
+        display: grid;
+        grid-template-columns: 1fr;
+        transition: all .3s ease-in-out;
+        position: absolute;
+    }
+
+    #mobileMenu .fa-search{
+        color: white;
+    }
+
+
+    #jeansSectionfilter{
+        padding: 0;
+        margin: 0;
+        text-align: center;
+        width: 100%;
+    }
+
+    .mobile-userInfo{
+        color: #fff;
+        text-align: center;
+    }
+
+    #userSearch{
+        color: black;
+
+    }
+
+    .fa-shopping-bag{
+        color: #fff;
+    }
+
+    .fa-search{
+        color: #fff;
+    }
+
+    .mobile-userInfo #searchBar{
+        border-bottom-color: #fff;
+        font-size: 25px;
+        color: #fff;
+    }
+
+    .searchBarContainer{
+        display: inline-flex;
+    }
+
+    #mobileMenu a{
+        color: #fff;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        font-size: 75px;
+        text-decoration: none;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        font-family: 'Open sans', sans-serif;
+        text-align: center;
+    }
+
+    .jeansMidSection {
+        display: flex;
+        flex-direction: column;
+        height: 111rem;
+        justify-content: center;
+        width: 100%;
+        align-content: center;
+        align-items: center;
+    }
+
+    #jeansProducts {
+        position: relative;
+        left: 0;
+    }
+
+    #jeansProductSection{
+        position: relative;
+        left: 0%;
+    }
+
+    #menuBtn .fa-bars{
+        font-size: 50px;
+    }
+
+    .userIcons1{
+        display: none;
+    }
+
+    #topSection .userIcons2{
+        display: none;
+    }
+
+    #topSection #navbar a{
+        display: none;
+    }
+
+    .logoTitle{
+        text-align: center;
+        width: 100%;
+        margin-top: 30%;
+        font-size: 8pc;
+    }
+    
+
+    .aboutContainer {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-top: 10%;
+        margin-left: -5%;
+    }
+
+    .mainContainer{
+        width: 90rem;
+        
+    }
+
+    
+    .midContainer{
+        width: 100rem;
+    }
+
+    .brandsContainer{
+        width: 90rem;
+    }
+
+    .trendingBrands{
+        width: 90rem;
+    }
+
+    .socialMediaContainer{
+        width: 90rem;
+        height: 100px;
+    }
+
+    #mainContainer{
+        padding: 20px 15px;
+        width: 105rem;
+        height: 35rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        text-align: center;
+        justify-content: center;
+        align-items: baseline;
+        align-content: center;
+        background-color: rgba(121,118,118,.1);
+      }
+
+}
+
+/* iPhone 6+, 7+ and 8+ Portrait */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+
+
+    .container{
+        width: 100rem;
+    }
+
+    #navbar{
+        display: none;
+    }
+
+    #menuBtn{
+        display: flex;
+        margin-left: 10%;
+        padding: 50px;
+        flex-direction: column;
+    }
+
+    .mainTitle h1 a {
+        text-decoration: none;
+        color: black;
+        font-size: 70px;
+    }
+
+    #closeBtn{
+        background-color: #000;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .fa-times{
+        color: #fff;
+        padding: 50px 150px;
+        font-size: 100px;
+    }
+
+     #mobileMenu.active{
+        transform: translateX(-115rem);
+        position: absolute;
+    } 
+
+    #mobileMenu{
+        padding-top: 5rem;
+        background-color:#000;
+        height: 184rem;
+        width: 105rem;
+        color: #fff;
+        position: absolute;
+        display: grid;
+        grid-template-columns: 1fr;
+        transition: all .3s ease-in-out;
+        position: absolute;
+    }
+
+    #mobileMenu .fa-search{
+        color: white;
+    }
+
+
+    #jeansSectionfilter{
+        padding: 0;
+        margin: 0;
+        text-align: center;
+        width: 100%;
+        font-size: 35px;
+    }
+
+    .categoriesTitle {
+        text-align: center;
+        font-size: 60px;
+        cursor: pointer;
+    }
+
+    .mobile-userInfo{
+        color: #fff;
+    }
+
+    #userSearch{
+        color: black;
+    }
+
+    .fa-shopping-bag{
+        color: #fff;
+    }
+
+    .fa-search{
+        color: #fff;
+    }
+
+    .mobile-userInfo #searchBar{
+        border-bottom-color: #fff;
+        font-size: 25px;
+        color: #fff;
+    }
+
+    .searchBarContainer{
+        display: inline-flex;
+    }
+
+    #mobileMenu a{
+        color: #fff;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        font-size: 75px;
+        text-decoration: none;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        font-family: 'Open sans', sans-serif;
+        text-align: center;
+    }
+
+    .jeansMidSection {
+        display: flex;
+        flex-direction: column;
+        height: 128rem;
+        justify-content: center;
+        width: 100%;
+        align-content: center;
+        align-items: center;
+    }
+
+    #jeansProducts {
+        position: relative;
+        left: 0;
+    }
+
+    #jeansProductSection{
+        position: relative;
+        left: 0%;
+    }
+
+    #menuBtn .fa-bars{
+        font-size: 50px;
+    }
+
+    .userIcons1{
+        display: none;
+    }
+
+    #topSection .userIcons2{
+        display: none;
+    }
+
+    #topSection #navbar a{
+        display: none;
+    }
+
+    .logoTitle{
+        text-align: center;
+        width: 100%;
+        margin-top: 30%;
+        font-size: 8pc;
+    }
+    
+
+    .aboutContainer {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-top: 10%;
+        margin-left: -5%;
+    }
+
+    .mainContainer{
+        width: 90rem;
+        
+    }
+
+    
+    .midContainer{
+        width: 100rem;
+    }
+
+    .brandsContainer{
+        width: 90rem;
+    }
+
+    .trendingBrands{
+        width: 90rem;
+    }
+
+    .socialMediaContainer{
+        width: 90rem;
+        height: 100px;
+    }
+
+    #mainContainer{
+        padding: 20px 15px;
+        width: 115rem;
+        height: 35rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        text-align: center;
+        justify-content: center;
+        align-items: baseline;
+        align-content: center;
+        background-color: rgba(121,118,118,.1);
+      }
+
+}
+
+
+/* iPhone 6+, 7+ and 8+ Landscape */
+
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+
+
+    .container{
+        width: 100rem;
+    }
+
+    #navbar{
+        display: none;
+    }
+
+    .mainTitle h1 a {
+        text-decoration: none;
+        color: black;
+        font-size: 70px;
+    }
+
+    #menuBtn{
+        display: flex;
+        margin-left: 10%;
+        padding: 50px;
+        flex-direction: column;
+    }
+
+    #closeBtn{
+        background-color: #000;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .fa-times{
+        color: #fff;
+        padding: 50px 150px;
+        font-size: 100px;
+    }
+
+     #mobileMenu.active{
+        transform: translateX(-105rem);
+        position: absolute;
+    } 
+
+    #mobileMenu{
+        padding-left: 41rem;
+        padding-top: 5rem;
+        background-color:#000;
+        height: 167rem;
+        width: 105rem;
+        color: #fff;
+        position: absolute;
+        display: grid;
+        grid-template-columns: 1fr;
+        transition: all .3s ease-in-out;
+        position: absolute;
+    }
+
+    #mobileMenu .fa-search{
+        color: white;
+    }
+
+
+    #jeansSectionfilter{
+        padding: 0;
+        margin: 0;
+        text-align: center;
+        width: 100%;
+        font-size: 42px;
+    }
+
+    .categoriesTitle {
+        text-align: center;
+        font-size: 60px;
+        cursor: pointer;
+    }
+
+    .mobile-userInfo{
+        color: #fff;
+    }
+
+    #userSearch{
+        color: black;
+    }
+
+    .fa-shopping-bag{
+        color: #fff;
+    }
+
+    .fa-search{
+        color: #fff;
+    }
+
+    .mobile-userInfo #searchBar{
+        border-bottom-color: #fff;
+        font-size: 25px;
+        color: #fff;
+    }
+
+    .searchBarContainer{
+        display: inline-flex;
+    }
+
+    #mobileMenu a{
+        color: #fff;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+        font-size: 75px;
+        text-decoration: none;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        font-family: 'Open sans', sans-serif;
+        text-align: center;
+    }
+
+    #mobileMenu .fa-search {
+        color: white;
+        font-size: 45px;
+    }
+
+    .userIcons2 .fas, .far {
+        transition: all .4s ease-in-out;
+        font-size: 47px;
+        padding: 5px;
+    }
+
+    .fa-shopping-bag {
+        color: #fff;
+        font-size: 46px;
+    }
+
+    .jeansMidSection {
+        display: flex;
+        flex-direction: column;
+        height: 111rem;
+        justify-content: center;
+        width: 100%;
+        align-content: center;
+        align-items: center;
+    }
+
+    #jeansProducts {
+        position: relative;
+        left: 0;
+    }
+
+    #jeansProductSection{
+        position: relative;
+        left: 0%;
+    }
+
+    #menuBtn .fa-bars{
+        font-size: 50px;
+    }
+
+    .userIcons1{
+        display: none;
+    }
+
+    #topSection .userIcons2{
+        display: none;
+    }
+
+    #topSection #navbar a{
+        display: none;
+    }
+
+    .logoTitle{
+        text-align: center;
+        width: 100%;
+        margin-top: 30%;
+        font-size: 8pc;
+    }
+    
+
+    .aboutContainer {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-top: 10%;
+        margin-left: -5%;
+    }
+
+    .mainContainer{
+        width: 90rem;
+        
+    }
+
+    
+    .midContainer{
+        width: 100rem;
+    }
+
+    .brandsContainer{
+        width: 90rem;
+    }
+
+    .trendingBrands{
+        width: 90rem;
+    }
+
+    .socialMediaContainer{
+        width: 90rem;
+        height: 100px;
+    }
+
+    #mainContainer{
+        padding: 20px 15px;
+        width: 105rem;
+        height: 35rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        text-align: center;
+        justify-content: center;
+        align-items: baseline;
+        align-content: center;
+        background-color: rgba(121,118,118,.1);
+      }
+
+}
+
+/* iPhone X Portrait */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+
+    .container{
+        height: 130rem;
+    }
+
+    .mainTitle {
+        cursor: pointer;
+        font-family: 'Open sans', sans-serif;
+        letter-spacing: 1px;
+        font-size: 35px;
+        text-transform: uppercase;
+    }
+
+    .jeansMidSection {
+        display: flex;
+        flex-direction: column;
+        height: 130rem;
+        justify-content: center;
+        width: 80%;
+        align-content: center;
+        align-items: center;
+    }
+
+    .jeansTitle {
+        text-align: center;
+        margin: 50px;
+        text-transform: uppercase;
+        font-family: 'Open sans', sans-serif;
+        letter-spacing: 2px;
+        font-size: 40px;
+    }
+
+    #jeansSectionfilter{
+        padding: 0;
+        margin: 0;
+        text-align: center;
+        width: 100%;
+        font-size: 42px;
+       
+    }
+
+    #jeansSectionfilter .categoriesTitle {
+        text-align: center;
+        font-size: 58px;
+        cursor: pointer;
+    }
+
+    #mobileMenu {
+        padding-left: 41rem;
+        padding-top: 5rem;
+        background-color: #000;
+        height: 205rem;
+        width: 115rem;
+        color: #fff;
+        position: absolute;
+        display: grid;
+        grid-template-columns: 1fr;
+        transition: all .3s ease-in-out;
+        position: absolute;
+    }
+
+    #mobileMenu .fa-search {
+        color: white;
+        font-size: 45px;
+    }
+
+    .userIcons2 .fas, .far {
+        transition: all .4s ease-in-out;
+        font-size: 47px;
+        padding: 5px;
+    }
+
+    .fa-shopping-bag {
+        color: #fff;
+        font-size: 46px;
+    }
+
+    #btmSection{
+        margin-top: 40rem;
+    }
+
+}
+
+
+/* iPhone X Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+
+    .container{
+        width: 100rem;
+    }
+
+    #navbar{
+        display: none;
+    }
+
+    .mainTitle h1 a {
+        text-decoration: none;
+        color: black;
+        font-size: 70px;
+    }
+
+    #menuBtn{
+        display: flex;
+        margin-left: 10%;
+        padding: 50px;
+        flex-direction: column;
+    }
+
+    #closeBtn{
+        background-color: #000;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .fa-times{
+        color: #fff;
+        padding: 50px 150px;
+        font-size: 100px;
+    }
+
+     #mobileMenu.active{
+        transform: translateX(-105rem);
+        position: absolute;
+    } 
+
+    #mobileMenu{
+        padding-left: 41rem;
+        padding-top: 5rem;
+        background-color:#000;
+        height: 167rem;
+        width: 105rem;
+        color: #fff;
+        position: absolute;
+        display: grid;
+        grid-template-columns: 1fr;
+        transition: all .3s ease-in-out;
+        position: absolute;
+    }
+
+
+    #jeansSectionfilter{
+        padding: 0;
+        margin: 0;
+        text-align: center;
+        width: 100%;
+        font-size: 42px;
+    }
+
+    .categoriesTitle {
+        text-align: center;
+        font-size: 60px;
+        cursor: pointer;
+    }
+
+    .mobile-userInfo{
+        color: #fff;
+    }
+
+    #userSearch{
+        color: black;
+    }
+
+    .fa-shopping-bag{
+        color: #fff;
+    }
+
+    .fa-search{
+        color: #fff;
+    }
+
+    .mobile-userInfo #searchBar {
+        border-bottom-color: #fff;
+        font-size: 25px;
+        color: #fff;
+        font-size: 40px;
+    }
+
+    .searchBarContainer{
+        display: inline-flex;
+    }
+
+    #mobileMenu a{
+        color: #fff;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+        font-size: 75px;
+        text-decoration: none;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        font-family: 'Open sans', sans-serif;
+        text-align: center;
+    }
+
+    .jeansMidSection {
+        display: flex;
+        flex-direction: column;
+        height: 111rem;
+        justify-content: center;
+        width: 100%;
+        align-content: center;
+        align-items: center;
+    }
+
+    #jeansProducts {
+        position: relative;
+        left: 0;
+    }
+
+    .jeansTitle {
+        text-align: center;
+        margin: 50px;
+        text-transform: uppercase;
+        font-family: 'Open sans', sans-serif;
+        letter-spacing: 2px;
+        font-size: 30px;
+    }
+
+    #jeansProductSection{
+        position: relative;
+        left: 0%;
+    }
+
+    #menuBtn .fa-bars{
+        font-size: 50px;
+    }
+
+    .userIcons1{
+        display: none;
+    }
+
+    #topSection .userIcons2{
+        display: none;
+    }
+
+    #topSection #navbar a{
+        display: none;
+    }
+
+    .logoTitle{
+        text-align: center;
+        width: 100%;
+        margin-top: 30%;
+        font-size: 8pc;
+    }
+    
+
+    .aboutContainer {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-top: 10%;
+        margin-left: -5%;
+    }
+
+    .mainContainer{
+        width: 90rem;
+        
+    }
+
+    
+    .midContainer{
+        width: 100rem;
+    }
+
+    .brandsContainer{
+        width: 90rem;
+    }
+
+    .trendingBrands{
+        width: 90rem;
+    }
+
+    .socialMediaContainer{
+        width: 90rem;
+        height: 100px;
+    }
+
+    #mainContainer{
+        padding: 20px 15px;
+        width: 105rem;
+        height: 35rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        text-align: center;
+        justify-content: center;
+        align-items: baseline;
+        align-content: center;
+        background-color: rgba(121,118,118,.1);
+      }
+
+      #mobileMenu .fa-search {
+        color: white;
+        font-size: 45px;
+    }
+
+    .userIcons2 .fas, .far {
+        transition: all .4s ease-in-out;
+        font-size: 47px;
+        padding: 5px;
+    }
+
+    .fa-shopping-bag {
+        color: #fff;
+        font-size: 46px;
+    }
+
+
+}
+
+/* iPad 1, 2, Mini and Air Portrait */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+    .container{
+        width: 100rem;
+    }
+
+    #navbar{
+        display: none;
+    }
+
+    .mainTitle h1 a {
+        text-decoration: none;
+        color: black;
+        font-size: 70px;
+    }
+
+    #menuBtn{
+        display: flex;
+        margin-left: 10%;
+        padding: 50px;
+        flex-direction: column;
+    }
+
+    #closeBtn{
+        background-color: #000;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .fa-times{
+        color: #fff;
+        padding: 50px 150px;
+        font-size: 100px;
+    }
+
+     #mobileMenu.active{
+        transform: translateX(-105rem);
+        position: absolute;
+    } 
+
+    #mobileMenu{
+        padding-left: 41rem;
+        padding-top: 5rem;
+        background-color:#000;
+        height: 167rem;
+        width: 105rem;
+        color: #fff;
+        position: absolute;
+        display: grid;
+        grid-template-columns: 1fr;
+        transition: all .3s ease-in-out;
+        position: absolute;
+    }
+
+
+    #jeansSectionfilter{
+        padding: 0;
+        margin: 0;
+        text-align: center;
+        width: 100%;
+        font-size: 42px;
+    }
+
+    .categoriesTitle {
+        text-align: center;
+        font-size: 60px;
+        cursor: pointer;
+    }
+
+    .mobile-userInfo{
+        color: #fff;
+    }
+
+    #userSearch{
+        color: black;
+    }
+
+    .fa-shopping-bag{
+        color: #fff;
+    }
+
+    .fa-search{
+        color: #fff;
+    }
+
+    .mobile-userInfo #searchBar {
+        border-bottom-color: #fff;
+        font-size: 25px;
+        color: #fff;
+        font-size: 40px;
+    }
+
+    .searchBarContainer{
+        display: inline-flex;
+    }
+
+    #mobileMenu a{
+        color: #fff;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+        font-size: 75px;
+        text-decoration: none;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        font-family: 'Open sans', sans-serif;
+        text-align: center;
+    }
+
+    .jeansMidSection {
+        display: flex;
+        flex-direction: column;
+        height: 111rem;
+        justify-content: center;
+        width: 100%;
+        align-content: center;
+        align-items: center;
+    }
+
+    .jeansTitle {
+        text-align: center;
+        margin: 50px;
+        text-transform: uppercase;
+        font-family: 'Open sans', sans-serif;
+        letter-spacing: 2px;
+        font-size: 30px;
+    }
+
+    #jeansProducts {
+        position: relative;
+        left: 0;
+    }
+
+    #jeansProductSection{
+        position: relative;
+        left: 0%;
+    }
+
+    #menuBtn .fa-bars{
+        font-size: 50px;
+    }
+
+    .userIcons1{
+        display: none;
+    }
+
+    #topSection .userIcons2{
+        display: none;
+    }
+
+    #topSection #navbar a{
+        display: none;
+    }
+
+    .logoTitle{
+        text-align: center;
+        width: 100%;
+        margin-top: 30%;
+        font-size: 8pc;
+    }
+    
+
+    .aboutContainer {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-top: 10%;
+        margin-left: -5%;
+    }
+
+    .mainContainer{
+        width: 90rem;
+        
+    }
+
+    
+    .midContainer{
+        width: 100rem;
+    }
+
+    .brandsContainer{
+        width: 90rem;
+    }
+
+    .trendingBrands{
+        width: 90rem;
+    }
+
+    .socialMediaContainer{
+        width: 90rem;
+        height: 100px;
+    }
+
+    #mainContainer{
+        padding: 20px 15px;
+        width: 105rem;
+        height: 35rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        text-align: center;
+        justify-content: center;
+        align-items: baseline;
+        align-content: center;
+        background-color: rgba(121,118,118,.1);
+      }
+
+      #mobileMenu .fa-search {
+        color: white;
+        font-size: 45px;
+    }
+
+    .userIcons2 .fas, .far {
+        transition: all .4s ease-in-out;
+        font-size: 47px;
+        padding: 5px;
+    }
+
+    .fa-shopping-bag {
+        color: #fff;
+        font-size: 46px;
+    }
+
+}
+
+/* iPad 1, 2, Mini and Air Landscape */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+    .container{
+        width: 100rem;
+    }
+
+    #navbar{
+        display: none;
+    }
+
+    .mainTitle h1 a {
+        text-decoration: none;
+        color: black;
+        font-size: 70px;
+    }
+
+    #menuBtn{
+        display: flex;
+        margin-left: 10%;
+        padding: 50px;
+        flex-direction: column;
+    }
+
+    #closeBtn{
+        background-color: #000;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .fa-times{
+        color: #fff;
+        padding: 50px 150px;
+        font-size: 100px;
+    }
+
+     #mobileMenu.active{
+        transform: translateX(-105rem);
+        position: absolute;
+    } 
+
+    #mobileMenu{
+        padding-left: 41rem;
+        padding-top: 5rem;
+        background-color:#000;
+        height: 167rem;
+        width: 105rem;
+        color: #fff;
+        position: absolute;
+        display: grid;
+        grid-template-columns: 1fr;
+        transition: all .3s ease-in-out;
+        position: absolute;
+    }
+
+
+    #jeansSectionfilter{
+        padding: 0;
+        margin: 0;
+        text-align: center;
+        width: 100%;
+        font-size: 42px;
+    }
+
+    .categoriesTitle {
+        text-align: center;
+        font-size: 60px;
+        cursor: pointer;
+    }
+
+    .mobile-userInfo{
+        color: #fff;
+    }
+
+    #userSearch{
+        color: black;
+    }
+
+    .fa-shopping-bag{
+        color: #fff;
+    }
+
+    .fa-search{
+        color: #fff;
+    }
+
+    .mobile-userInfo #searchBar {
+        border-bottom-color: #fff;
+        font-size: 25px;
+        color: #fff;
+        font-size: 40px;
+    }
+
+    .searchBarContainer{
+        display: inline-flex;
+    }
+
+    #mobileMenu a{
+        color: #fff;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+        font-size: 75px;
+        text-decoration: none;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        font-family: 'Open sans', sans-serif;
+        text-align: center;
+    }
+
+    .jeansMidSection {
+        display: flex;
+        flex-direction: column;
+        height: 111rem;
+        justify-content: center;
+        width: 100%;
+        align-content: center;
+        align-items: center;
+    }
+
+    .jeansTitle {
+        text-align: center;
+        margin: 50px;
+        text-transform: uppercase;
+        font-family: 'Open sans', sans-serif;
+        letter-spacing: 2px;
+        font-size: 30px;
+    }
+
+    #jeansProducts {
+        position: relative;
+        left: 0;
+    }
+
+    #jeansProductSection{
+        position: relative;
+        left: 0%;
+    }
+
+    #menuBtn .fa-bars{
+        font-size: 50px;
+    }
+
+    .userIcons1{
+        display: none;
+    }
+
+    #topSection .userIcons2{
+        display: none;
+    }
+
+    #topSection #navbar a{
+        display: none;
+    }
+
+    .logoTitle{
+        text-align: center;
+        width: 100%;
+        margin-top: 30%;
+        font-size: 8pc;
+    }
+    
+
+    .aboutContainer {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-top: 10%;
+        margin-left: -5%;
+    }
+
+    .mainContainer{
+        width: 90rem;
+        
+    }
+
+    
+    .midContainer{
+        width: 100rem;
+    }
+
+    .brandsContainer{
+        width: 90rem;
+    }
+
+    .trendingBrands{
+        width: 90rem;
+    }
+
+    .socialMediaContainer{
+        width: 90rem;
+        height: 100px;
+    }
+
+    #mainContainer{
+        padding: 20px 15px;
+        width: 105rem;
+        height: 35rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        text-align: center;
+        justify-content: center;
+        align-items: baseline;
+        align-content: center;
+        background-color: rgba(121,118,118,.1);
+      }
+
+      #mobileMenu .fa-search {
+        color: white;
+        font-size: 45px;
+    }
+
+    .userIcons2 .fas, .far {
+        transition: all .4s ease-in-out;
+        font-size: 47px;
+        padding: 5px;
+    }
+
+    .fa-shopping-bag {
+        color: #fff;
+        font-size: 46px;
+    }
+
+}
