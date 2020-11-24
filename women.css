@@ -377,6 +377,9 @@
    position: relative;
 }
 
+#womenSectionfilter .categoriesTitle{
+    text-align: left;
+}
 
 #womenProductSection{
     display: grid;

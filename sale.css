@@ -146,14 +146,17 @@
 .saleMidSection{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    justify-content: baseline;
-    align-items: baseline;
     margin-top: 5%;
+    margin: 0 auto;
 }
 
 #salesProducts{
     position: relative;
-    left: -50%;
+    left: -25%;
+}
+
+#salesSectionfilter{
+    margin-top: 13%;
 }
 
 #salesSectionfilter ul li{
